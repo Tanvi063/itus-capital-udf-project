@@ -889,3 +889,16 @@ NameError: name 'get_db_connection' is not defined
 2025-11-14 19:14:39,570 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31 00:00:00, Time: 2.17ms, Success: True
 2025-11-14 19:14:39,572 - INFO - Quarterly data result: 8.705467222174985
 2025-11-14 19:14:39,573 - INFO - 127.0.0.1 - - [14/Nov/2025 19:14:39] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2023-03-31 HTTP/1.1" 200 -
+2025-11-14 20:45:29,539 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-14 20:45:29,539 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-14 20:45:29,558 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 20:45:29,996 - WARNING -  * Debugger is active!
+2025-11-14 20:45:30,000 - INFO -  * Debugger PIN: 739-028-281
+2025-11-14 20:45:38,326 - INFO - 127.0.0.1 - - [14/Nov/2025 20:45:38] "GET / HTTP/1.1" 200 -
+2025-11-14 20:45:39,507 - INFO - 127.0.0.1 - - [14/Nov/2025 20:45:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-14 20:45:41,426 - INFO - 127.0.0.1 - - [14/Nov/2025 20:45:41] "GET / HTTP/1.1" 200 -
+2025-11-14 20:45:48,090 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-11-14
+2025-11-14 20:45:48,109 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-11-14 00:00:00, Time: 16.55ms, Success: False
+2025-11-14 20:45:48,116 - INFO - Quarterly data result: None
+2025-11-14 20:45:48,126 - INFO - 127.0.0.1 - - [14/Nov/2025 20:45:48] "[33mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-11-14 HTTP/1.1[0m" 404 -
