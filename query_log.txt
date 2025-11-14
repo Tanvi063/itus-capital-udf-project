@@ -1,0 +1,891 @@
+2025-11-14 18:29:30,542 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:29:30,793 - WARNING -  * Debugger is active!
+2025-11-14 18:29:30,797 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:29:30,821 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:29:55,815 - INFO - 127.0.0.1 - - [14/Nov/2025 18:29:55] "GET / HTTP/1.1" 200 -
+2025-11-14 18:30:12,261 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30, Time: 2.65ms, Success: False
+2025-11-14 18:30:12,263 - INFO - 127.0.0.1 - - [14/Nov/2025 18:30:12] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-06-30 HTTP/1.1" 200 -
+2025-11-14 18:30:13,826 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2025-09-30, Time: 2.53ms, Rows: 12
+2025-11-14 18:30:13,827 - INFO - 127.0.0.1 - - [14/Nov/2025 18:30:13] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:37:05,723 - INFO - 127.0.0.1 - - [14/Nov/2025 18:37:05] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:42:03,779 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:42:04,035 - WARNING -  * Debugger is active!
+2025-11-14 18:42:04,039 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:42:04,064 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:42:05,870 - INFO - 127.0.0.1 - - [14/Nov/2025 18:42:05] "GET / HTTP/1.1" 200 -
+2025-11-14 18:42:07,939 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30
+2025-11-14 18:42:07,942 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30 00:00:00, Time: 2.90ms, Success: False
+2025-11-14 18:42:07,943 - INFO - Quarterly data result: None
+2025-11-14 18:42:07,943 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:42:07,944 - INFO - 127.0.0.1 - - [14/Nov/2025 18:42:07] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-06-30 HTTP/1.1[0m" 400 -
+2025-11-14 18:42:10,803 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2025-09-30, Time: 2.27ms, Rows: 12
+2025-11-14 18:42:10,805 - INFO - 127.0.0.1 - - [14/Nov/2025 18:42:10] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:43:18,318 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:43:37,656 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:49:11,613 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:49:11,863 - WARNING -  * Debugger is active!
+2025-11-14 18:49:11,866 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:49:11,890 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:49:21,634 - INFO - 127.0.0.1 - - [14/Nov/2025 18:49:21] "GET / HTTP/1.1" 200 -
+2025-11-14 18:49:23,568 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30
+2025-11-14 18:49:23,572 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30 00:00:00, Time: 4.31ms, Success: False
+2025-11-14 18:49:23,574 - INFO - Quarterly data result: None
+2025-11-14 18:49:23,575 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:49:23,575 - INFO - 127.0.0.1 - - [14/Nov/2025 18:49:23] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-06-30 HTTP/1.1[0m" 400 -
+2025-11-14 18:49:25,856 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2025-09-30, Time: 2.42ms, Rows: 12
+2025-11-14 18:49:25,858 - INFO - 127.0.0.1 - - [14/Nov/2025 18:49:25] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:49:59,001 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-06-30
+2025-11-14 18:49:59,004 - INFO - get_quarterly_data - Code: 100186, Field: mcap_category, Date: 2025-06-30 00:00:00, Time: 2.19ms, Success: False
+2025-11-14 18:49:59,005 - INFO - Quarterly data result: None
+2025-11-14 18:49:59,006 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:49:59,006 - INFO - 127.0.0.1 - - [14/Nov/2025 18:49:59] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-06-30 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:05,018 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-15
+2025-11-14 18:50:05,021 - INFO - get_quarterly_data - Code: 100186, Field: mcap_category, Date: 2025-01-15 00:00:00, Time: 2.47ms, Success: False
+2025-11-14 18:50:05,023 - INFO - Quarterly data result: None
+2025-11-14 18:50:05,023 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:05,023 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:05] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-15 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:05,892 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-15
+2025-11-14 18:50:05,893 - INFO - Quarterly data result: None
+2025-11-14 18:50:05,893 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:05,893 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:05] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-15 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:06,609 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-15
+2025-11-14 18:50:06,609 - INFO - Quarterly data result: None
+2025-11-14 18:50:06,610 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:06,610 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:06] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-15 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:06,831 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-15
+2025-11-14 18:50:06,832 - INFO - Quarterly data result: None
+2025-11-14 18:50:06,832 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:06,833 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:06] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-15 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:07,754 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-15
+2025-11-14 18:50:07,754 - INFO - Quarterly data result: None
+2025-11-14 18:50:07,754 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:07,754 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:07] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-15 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:17,557 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-29
+2025-11-14 18:50:17,560 - INFO - get_quarterly_data - Code: 100186, Field: mcap_category, Date: 2025-01-29 00:00:00, Time: 2.66ms, Success: False
+2025-11-14 18:50:17,562 - INFO - Quarterly data result: None
+2025-11-14 18:50:17,562 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:17,562 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:17] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-29 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:18,006 - INFO - Quarterly data request - Code: 100186, Field: mcap_category, Date: 2025-01-29
+2025-11-14 18:50:18,007 - INFO - Quarterly data result: None
+2025-11-14 18:50:18,007 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:50:18,007 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:18] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=mcap_category&date=2025-01-29 HTTP/1.1[0m" 400 -
+2025-11-14 18:50:19,189 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:19] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:50:21,312 - INFO - get_quarterly_matrix - Date: 2025-06-30, Field: ttm_pat_yoy_growth, Time: 7.14ms, Rows: 668
+2025-11-14 18:50:21,316 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:21] "GET /api/quarterly_matrix?date=2025-06-30 HTTP/1.1" 200 -
+2025-11-14 18:50:31,815 - INFO - get_all_pat_growth - Code: 100186, Field: ttm_pat_yoy_growth, Time: 2.50ms, Rows: 12
+2025-11-14 18:50:31,817 - INFO - 127.0.0.1 - - [14/Nov/2025 18:50:31] "GET /api/all_pat_growth?accord_code=100186 HTTP/1.1" 200 -
+2025-11-14 18:51:06,895 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\run.py', reloading
+2025-11-14 18:51:06,895 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\run.py', reloading
+2025-11-14 18:51:07,404 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:51:07,675 - WARNING -  * Debugger is active!
+2025-11-14 18:51:07,678 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:51:07,700 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:51:21,952 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:51:22,205 - WARNING -  * Debugger is active!
+2025-11-14 18:51:22,209 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:51:22,235 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:51:32,337 - INFO - 127.0.0.1 - - [14/Nov/2025 18:51:32] "GET / HTTP/1.1" 200 -
+2025-11-14 18:51:34,289 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30
+2025-11-14 18:51:34,292 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30 00:00:00, Time: 2.58ms, Success: False
+2025-11-14 18:51:34,293 - INFO - Quarterly data result: None
+2025-11-14 18:51:34,294 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:51:34,294 - INFO - 127.0.0.1 - - [14/Nov/2025 18:51:34] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-06-30 HTTP/1.1[0m" 400 -
+2025-11-14 18:51:36,717 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2025-09-30, Time: 4.55ms, Rows: 12
+2025-11-14 18:51:36,719 - INFO - 127.0.0.1 - - [14/Nov/2025 18:51:36] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:56:04,131 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:56:04,378 - WARNING -  * Debugger is active!
+2025-11-14 18:56:04,382 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:56:04,402 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:56:05,907 - INFO - 127.0.0.1 - - [14/Nov/2025 18:56:05] "GET / HTTP/1.1" 200 -
+2025-11-14 18:56:08,209 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30
+2025-11-14 18:56:08,212 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30 00:00:00, Time: 2.87ms, Success: False
+2025-11-14 18:56:08,213 - INFO - Quarterly data result: None
+2025-11-14 18:56:08,213 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+2025-11-14 18:56:08,214 - INFO - 127.0.0.1 - - [14/Nov/2025 18:56:08] "[31m[1mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-06-30 HTTP/1.1[0m" 400 -
+2025-11-14 18:58:21,240 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 18:58:21,241 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 18:58:21,969 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:58:22,257 - WARNING -  * Debugger is active!
+2025-11-14 18:58:22,261 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:58:22,283 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:58:35,069 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 18:58:35,069 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 18:58:35,362 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:58:35,634 - WARNING -  * Debugger is active!
+2025-11-14 18:58:35,637 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:58:35,660 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:59:13,458 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 18:59:13,735 - WARNING -  * Debugger is active!
+2025-11-14 18:59:13,738 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 18:59:13,759 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 18:59:16,763 - INFO - 127.0.0.1 - - [14/Nov/2025 18:59:16] "GET / HTTP/1.1" 200 -
+2025-11-14 18:59:18,543 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30
+2025-11-14 18:59:18,546 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-06-30 00:00:00, Time: 2.86ms, Success: False
+2025-11-14 18:59:18,548 - INFO - Quarterly data result: None
+2025-11-14 18:59:18,548 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\ttm_pat_project\ttm_pat_project\financial_data_analyzer\app.py", line 239, in api_quarterly_data
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^
+NameError: name 'get_db_connection' is not defined
+2025-11-14 18:59:18,552 - INFO - 127.0.0.1 - - [14/Nov/2025 18:59:18] "[35m[1mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-06-30 HTTP/1.1[0m" 500 -
+2025-11-14 18:59:20,993 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2025-09-30, Time: 2.53ms, Rows: 12
+2025-11-14 18:59:20,995 - INFO - 127.0.0.1 - - [14/Nov/2025 18:59:20] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2025-09-30 HTTP/1.1" 200 -
+2025-11-14 18:59:25,780 - INFO - Quarterly data request - Code: 100186, Field: sector, Date: 2025-06-30
+2025-11-14 18:59:25,783 - INFO - get_quarterly_data - Code: 100186, Field: sector, Date: 2025-06-30 00:00:00, Time: 2.45ms, Success: False
+2025-11-14 18:59:25,784 - INFO - Quarterly data result: None
+2025-11-14 18:59:25,784 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\ttm_pat_project\ttm_pat_project\financial_data_analyzer\app.py", line 239, in api_quarterly_data
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^
+NameError: name 'get_db_connection' is not defined
+2025-11-14 18:59:25,788 - INFO - 127.0.0.1 - - [14/Nov/2025 18:59:25] "[35m[1mGET /api/quarterly_data?accord_code=100186&field=sector&date=2025-06-30 HTTP/1.1[0m" 500 -
+2025-11-14 18:59:30,454 - INFO - Quarterly data request - Code: 100186, Field: sector, Date: 2025-06-18
+2025-11-14 18:59:30,456 - INFO - get_quarterly_data - Code: 100186, Field: sector, Date: 2025-06-18 00:00:00, Time: 2.06ms, Success: False
+2025-11-14 18:59:30,458 - INFO - Quarterly data result: None
+2025-11-14 18:59:30,458 - ERROR - Error in api_quarterly_data: name 'get_db_connection' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\ttm_pat_project\ttm_pat_project\financial_data_analyzer\app.py", line 239, in api_quarterly_data
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^
+NameError: name 'get_db_connection' is not defined
+2025-11-14 18:59:30,463 - INFO - 127.0.0.1 - - [14/Nov/2025 18:59:30] "[35m[1mGET /api/quarterly_data?accord_code=100186&field=sector&date=2025-06-18 HTTP/1.1[0m" 500 -
+2025-11-14 19:01:20,067 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:01:20,067 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:01:20,301 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:01:20,584 - WARNING -  * Debugger is active!
+2025-11-14 19:01:20,588 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:01:20,615 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:01:32,927 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:01:33,174 - WARNING -  * Debugger is active!
+2025-11-14 19:01:33,177 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:01:33,196 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:01:44,133 - INFO - 127.0.0.1 - - [14/Nov/2025 19:01:44] "GET / HTTP/1.1" 200 -
+2025-11-14 19:01:46,474 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31
+2025-11-14 19:01:46,477 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31 00:00:00, Time: 2.86ms, Success: True
+2025-11-14 19:01:46,479 - INFO - Quarterly data result: 8.705467222174985
+2025-11-14 19:01:46,479 - INFO - 127.0.0.1 - - [14/Nov/2025 19:01:46] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2023-03-31 HTTP/1.1" 200 -
+2025-11-14 19:01:57,465 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2023-09-30, Time: 2.24ms, Rows: 6
+2025-11-14 19:01:57,467 - INFO - 127.0.0.1 - - [14/Nov/2025 19:01:57] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2023-09-30 HTTP/1.1" 200 -
+2025-11-14 19:02:01,400 - INFO - get_quarterly_matrix - Date: 2023-06-30, Field: ttm_pat_yoy_growth, Time: 6.32ms, Rows: 970
+2025-11-14 19:02:01,404 - INFO - 127.0.0.1 - - [14/Nov/2025 19:02:01] "GET /api/quarterly_matrix?date=2023-06-30 HTTP/1.1" 200 -
+2025-11-14 19:02:28,550 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\os.py', reloading
+2025-11-14 19:02:28,690 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\heapq.py', reloading
+2025-11-14 19:02:28,691 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\nturl2path.py', reloading
+2025-11-14 19:02:28,691 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\operator.py', reloading
+2025-11-14 19:02:28,692 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pickletools.py', reloading
+2025-11-14 19:02:28,693 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pstats.py', reloading
+2025-11-14 19:02:28,694 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\py_compile.py', reloading
+2025-11-14 19:02:28,695 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\_compiler.py', reloading
+2025-11-14 19:02:28,700 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\textwrap.py', reloading
+2025-11-14 19:02:28,703 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\weakref.py', reloading
+2025-11-14 19:02:28,704 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\mock.py', reloading
+2025-11-14 19:02:28,705 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\util.py', reloading
+2025-11-14 19:02:28,705 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_ios_support.py', reloading
+2025-11-14 19:02:28,706 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_markupbase.py', reloading
+2025-11-14 19:02:28,706 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_opcode_metadata.py', reloading
+2025-11-14 19:02:28,706 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydatetime.py', reloading
+2025-11-14 19:02:28,716 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\huggingface_hub\\repository.py', reloading
+2025-11-14 19:02:28,720 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\llvmlite\\binding\\dylib.py', reloading
+2025-11-14 19:02:28,721 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markdown_it\\parser_core.py', reloading
+2025-11-14 19:02:28,721 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\llvmlite\\binding\\linker.py', reloading
+2025-11-14 19:02:28,723 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\nbclient\\util.py', reloading
+2025-11-14 19:02:28,733 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\descriptors.py', reloading
+2025-11-14 19:02:28,734 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\dispatcher.py', reloading
+2025-11-14 19:02:28,734 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\errors.py', reloading
+2025-11-14 19:02:28,735 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\extending.py', reloading
+2025-11-14 19:02:28,735 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\externals.py', reloading
+2025-11-14 19:02:28,737 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\six.py', reloading
+2025-11-14 19:02:28,738 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\itanium_mangler.py', reloading
+2025-11-14 19:02:28,738 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\llvm_bindings.py', reloading
+2025-11-14 19:02:28,739 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\optional.py', reloading
+2025-11-14 19:02:28,742 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\llvmlite\\binding\\typeref.py', reloading
+2025-11-14 19:02:28,742 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\ssa.py', reloading
+2025-11-14 19:02:28,743 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\targetconfig.py', reloading
+2025-11-14 19:02:28,745 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\typeinfer.py', reloading
+2025-11-14 19:02:28,748 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\tinycss2\\color4.py', reloading
+2025-11-14 19:02:28,748 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\withcontexts.py', reloading
+2025-11-14 19:02:28,752 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\operator_versions\\gen_mobile_upgraders.py', reloading
+2025-11-14 19:02:28,753 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\__init__.py', reloading
+2025-11-14 19:02:28,753 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\utils.py', reloading
+2025-11-14 19:02:28,754 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\arguments.py', reloading
+2025-11-14 19:02:28,756 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\_version.py', reloading
+2025-11-14 19:02:28,756 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\__init__.py', reloading
+2025-11-14 19:02:28,757 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\emitter.py', reloading
+2025-11-14 19:02:28,757 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\events.py', reloading
+2025-11-14 19:02:28,758 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\nodes.py', reloading
+2025-11-14 19:02:28,759 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\reader.py', reloading
+2025-11-14 19:02:28,761 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\serializer.py', reloading
+2025-11-14 19:02:28,761 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\tokens.py', reloading
+2025-11-14 19:02:28,762 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\scanner.py', reloading
+2025-11-14 19:02:28,763 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\__init__.py', reloading
+2025-11-14 19:02:28,772 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\resolver.py', reloading
+2025-11-14 19:02:28,775 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\loader.py', reloading
+2025-11-14 19:02:28,775 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\representer.py', reloading
+2025-11-14 19:02:28,776 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\parser.py', reloading
+2025-11-14 19:02:28,777 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\__main__.py', reloading
+2025-11-14 19:02:28,777 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\error.py', reloading
+2025-11-14 19:02:28,778 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\__wrapt__.py', reloading
+2025-11-14 19:02:28,779 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\wordcloud_cli.py', reloading
+2025-11-14 19:02:28,780 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\dumper.py', reloading
+2025-11-14 19:02:28,781 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_yaml\\__init__.py', reloading
+2025-11-14 19:02:28,783 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\cyaml.py', reloading
+2025-11-14 19:02:28,784 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\__init__.py', reloading
+2025-11-14 19:02:28,788 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\tokenization.py', reloading
+2025-11-14 19:02:28,790 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\constructor.py', reloading
+2025-11-14 19:02:28,791 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_distutils_hack\\override.py', reloading
+2025-11-14 19:02:28,791 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yaml\\composer.py', reloading
+2025-11-14 19:02:28,792 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\wrappers.py', reloading
+2025-11-14 19:02:28,793 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_distutils_hack\\__init__.py', reloading
+2025-11-14 19:02:28,796 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\weakrefs.py', reloading
+2025-11-14 19:02:28,797 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\patches.py', reloading
+2025-11-14 19:02:28,798 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\importer.py', reloading
+2025-11-14 19:02:28,799 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wrapt\\decorators.py', reloading
+2025-11-14 19:02:28,799 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\color_from_image.py', reloading
+2025-11-14 19:02:28,801 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wordcloud\\wordcloud.py', reloading
+2025-11-14 19:02:28,802 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_argon2_cffi_bindings\\__init__.py', reloading
+2025-11-14 19:02:28,803 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_argon2_cffi_bindings\\_ffi_build.py', reloading
+2025-11-14 19:02:28,804 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\base_classes.py', reloading
+2025-11-14 19:02:28,806 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\com_server.py', reloading
+2025-11-14 19:02:28,808 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\constants.py', reloading
+2025-11-14 19:02:28,809 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\asyncio.py', reloading
+2025-11-14 19:02:28,811 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\constants.py', reloading
+2025-11-14 19:02:28,812 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\auth\\asyncio.py', reloading
+2025-11-14 19:02:28,813 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\server.py', reloading
+2025-11-14 19:02:28,813 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\auth\\thread.py', reloading
+2025-11-14 19:02:28,814 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\_xlofficejs.py', reloading
+2025-11-14 19:02:28,815 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\udfs_officejs.py', reloading
+2025-11-14 19:02:28,816 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\udfs.py', reloading
+2025-11-14 19:02:28,816 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\__init__.py', reloading
+2025-11-14 19:02:28,817 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\_xlmac.py', reloading
+2025-11-14 19:02:28,818 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\__init__.py', reloading
+2025-11-14 19:02:28,819 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\interop.py', reloading
+2025-11-14 19:02:28,820 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\garbage.py', reloading
+2025-11-14 19:02:28,823 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\jsonapi.py', reloading
+2025-11-14 19:02:28,825 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\monitor.py', reloading
+2025-11-14 19:02:28,826 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\strtypes.py', reloading
+2025-11-14 19:02:28,827 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\win32.py', reloading
+2025-11-14 19:02:28,828 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\utils\\z85.py', reloading
+2025-11-14 19:02:28,829 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_future.py', reloading
+2025-11-14 19:02:28,830 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\_typing.py', reloading
+2025-11-14 19:02:28,831 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\_xlwindows.py', reloading
+2025-11-14 19:02:28,831 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\tests\\__init__.py', reloading
+2025-11-14 19:02:28,832 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\log\\__main__.py', reloading
+2025-11-14 19:02:28,833 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\_win32patch.py', reloading
+2025-11-14 19:02:28,834 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\attrsettr.py', reloading
+2025-11-14 19:02:28,835 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\log\\handlers.py', reloading
+2025-11-14 19:02:28,836 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\ssh\\forward.py', reloading
+2025-11-14 19:02:28,837 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\ssh\\__init__.py', reloading
+2025-11-14 19:02:28,839 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\context.py', reloading
+2025-11-14 19:02:28,840 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\frame.py', reloading
+2025-11-14 19:02:28,840 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\ssh\\tunnel.py', reloading
+2025-11-14 19:02:28,841 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\select.py', reloading
+2025-11-14 19:02:28,842 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\__init__.py', reloading
+2025-11-14 19:02:28,844 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\devices\\__init__.py', reloading
+2025-11-14 19:02:28,845 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\devices\\proxysteerabledevice.py', reloading
+2025-11-14 19:02:28,846 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\auth\\__init__.py', reloading
+2025-11-14 19:02:28,846 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\devices\\monitoredqueuedevice.py', reloading
+2025-11-14 19:02:28,847 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\devices\\proxydevice.py', reloading
+2025-11-14 19:02:28,847 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\devices\\monitoredqueue.py', reloading
+2025-11-14 19:02:28,848 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\_xlremote.py', reloading
+2025-11-14 19:02:28,849 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\poll.py', reloading
+2025-11-14 19:02:28,850 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\utils.py', reloading
+2025-11-14 19:02:28,851 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\_xlcalamine.py', reloading
+2025-11-14 19:02:28,852 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\stopwatch.py', reloading
+2025-11-14 19:02:28,853 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\core.py', reloading
+2025-11-14 19:02:28,854 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\version.py', reloading
+2025-11-14 19:02:28,855 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\__init__.py', reloading
+2025-11-14 19:02:28,857 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cython\\__init__.py', reloading
+2025-11-14 19:02:28,859 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\__init__.py', reloading
+2025-11-14 19:02:28,860 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\rest\\api.py', reloading
+2025-11-14 19:02:28,861 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\eventloop\\__init__.py', reloading
+2025-11-14 19:02:28,862 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\eventloop\\zmqstream.py', reloading
+2025-11-14 19:02:28,863 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\socket.py', reloading
+2025-11-14 19:02:28,864 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\eventloop\\ioloop.py', reloading
+2025-11-14 19:02:28,865 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\rest\\serializers.py', reloading
+2025-11-14 19:02:28,866 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\poll.py', reloading
+2025-11-14 19:02:28,866 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\rest\\__init__.py', reloading
+2025-11-14 19:02:28,868 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\green\\device.py', reloading
+2025-11-14 19:02:28,872 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\reports.py', reloading
+2025-11-14 19:02:28,873 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\auth\\ioloop.py', reloading
+2025-11-14 19:02:28,873 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\devices\\basedevice.py', reloading
+2025-11-14 19:02:28,874 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\error.py', reloading
+2025-11-14 19:02:28,875 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\auth\\base.py', reloading
+2025-11-14 19:02:28,877 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\auth\\certs.py', reloading
+2025-11-14 19:02:28,878 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\sugar\\tracker.py', reloading
+2025-11-14 19:02:28,878 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\eventloop\\future.py', reloading
+2025-11-14 19:02:28,879 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\eventloop\\ioloop.py', reloading
+2025-11-14 19:02:28,879 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\cffi.py', reloading
+2025-11-14 19:02:28,881 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\benchmark.py', reloading
+2025-11-14 19:02:28,881 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\eventloop\\zmqstream.py', reloading
+2025-11-14 19:02:28,883 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\eventloop\\__init__.py', reloading
+2025-11-14 19:02:28,885 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\compute.py', reloading
+2025-11-14 19:02:28,885 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\cuda.py', reloading
+2025-11-14 19:02:28,886 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\conftest.py', reloading
+2025-11-14 19:02:28,887 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\csv.py', reloading
+2025-11-14 19:02:28,889 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\context.py', reloading
+2025-11-14 19:02:28,890 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\embedded_code.py', reloading
+2025-11-14 19:02:28,892 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\eventloop\\_deprecated.py', reloading
+2025-11-14 19:02:28,892 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\decorators.py', reloading
+2025-11-14 19:02:28,893 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cython\\_zmq.py', reloading
+2025-11-14 19:02:28,894 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\feather.py', reloading
+2025-11-14 19:02:28,894 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\error.py', reloading
+2025-11-14 19:02:28,896 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\dataset.py', reloading
+2025-11-14 19:02:28,897 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\flight.py', reloading
+2025-11-14 19:02:28,897 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\devices.py', reloading
+2025-11-14 19:02:28,898 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\message.py', reloading
+2025-11-14 19:02:28,899 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\reports\\filters.py', reloading
+2025-11-14 19:02:28,900 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\fs.py', reloading
+2025-11-14 19:02:28,901 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\socket.py', reloading
+2025-11-14 19:02:28,902 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\reports\\main.py', reloading
+2025-11-14 19:02:28,903 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\_poll.py', reloading
+2025-11-14 19:02:28,903 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\reports\\pdf.py', reloading
+2025-11-14 19:02:28,905 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\ipc.py', reloading
+2025-11-14 19:02:28,906 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\interchange\\buffer.py', reloading
+2025-11-14 19:02:28,907 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\jvm.py', reloading
+2025-11-14 19:02:28,908 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\interchange\\column.py', reloading
+2025-11-14 19:02:28,909 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\orc.py', reloading
+2025-11-14 19:02:28,915 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\substrait.py', reloading
+2025-11-14 19:02:28,917 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\types.py', reloading
+2025-11-14 19:02:28,920 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\_compute_docstrings.py', reloading
+2025-11-14 19:02:28,931 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\__init__.py', reloading
+2025-11-14 19:02:28,940 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\_generated_version.py', reloading
+2025-11-14 19:02:28,965 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\vendored\\docscrape.py', reloading
+2025-11-14 19:02:28,967 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\vendored\\__init__.py', reloading
+2025-11-14 19:02:28,969 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\vendored\\version.py', reloading
+2025-11-14 19:02:28,970 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\util.py', reloading
+2025-11-14 19:02:28,975 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\arrow_39313.py', reloading
+2025-11-14 19:02:28,976 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\arrow_16597.py', reloading
+2025-11-14 19:02:28,978 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\arrow_7980.py', reloading
+2025-11-14 19:02:28,980 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\conftest.py', reloading
+2025-11-14 19:02:28,982 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\pandas_threaded_import.py', reloading
+2025-11-14 19:02:28,984 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\pandas_examples.py', reloading
+2025-11-14 19:02:28,985 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\read_record_batch.py', reloading
+2025-11-14 19:02:28,986 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\strategies.py', reloading
+2025-11-14 19:02:28,987 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_acero.py', reloading
+2025-11-14 19:02:28,992 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_builder.py', reloading
+2025-11-14 19:02:28,993 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\interchange\\__init__.py', reloading
+2025-11-14 19:02:28,994 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\conftest.py', reloading
+2025-11-14 19:02:28,996 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\encryption.py', reloading
+2025-11-14 19:02:28,997 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_compliant_nested_type.py', reloading
+2025-11-14 19:02:28,999 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_cpp_internals.py', reloading
+2025-11-14 19:02:29,002 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_data_types.py', reloading
+2025-11-14 19:02:29,005 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_datetime.py', reloading
+2025-11-14 19:02:29,011 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_cuda_numba_interop.py', reloading
+2025-11-14 19:02:29,013 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_cython.py', reloading
+2025-11-14 19:02:29,015 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_deprecations.py', reloading
+2025-11-14 19:02:29,017 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_encryption.py', reloading
+2025-11-14 19:02:29,019 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_parquet_writer.py', reloading
+2025-11-14 19:02:29,023 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_dlpack.py', reloading
+2025-11-14 19:02:29,025 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_exec_plan.py', reloading
+2025-11-14 19:02:29,026 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_cuda.py', reloading
+2025-11-14 19:02:29,027 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_feather.py', reloading
+2025-11-14 19:02:29,029 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_parquet_file.py', reloading
+2025-11-14 19:02:29,031 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_device.py', reloading
+2025-11-14 19:02:29,032 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_flight.py', reloading
+2025-11-14 19:02:29,033 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_convert_builtin.py', reloading
+2025-11-14 19:02:29,036 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_gandiva.py', reloading
+2025-11-14 19:02:29,037 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_flight_async.py', reloading
+2025-11-14 19:02:29,039 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_csv.py', reloading
+2025-11-14 19:02:29,041 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_json.py', reloading
+2025-11-14 19:02:29,042 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_ipc.py', reloading
+2025-11-14 19:02:29,047 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_compute.py', reloading
+2025-11-14 19:02:29,050 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_misc.py', reloading
+2025-11-14 19:02:29,051 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_schema.py', reloading
+2025-11-14 19:02:29,052 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_strategies.py', reloading
+2025-11-14 19:02:29,052 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_gdb.py', reloading
+2025-11-14 19:02:29,054 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_jvm.py', reloading
+2025-11-14 19:02:29,055 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_fs.py', reloading
+2025-11-14 19:02:29,055 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_without_numpy.py', reloading
+2025-11-14 19:02:29,056 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_orc.py', reloading
+2025-11-14 19:02:29,059 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\wsgi_examples.py', reloading
+2025-11-14 19:02:29,059 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_udf.py', reloading
+2025-11-14 19:02:29,060 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_scalars.py', reloading
+2025-11-14 19:02:29,061 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_types.py', reloading
+2025-11-14 19:02:29,062 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\util.py', reloading
+2025-11-14 19:02:29,066 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_util.py', reloading
+2025-11-14 19:02:29,067 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_tensor.py', reloading
+2025-11-14 19:02:29,068 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_sparse_tensor.py', reloading
+2025-11-14 19:02:29,069 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_substrait.py', reloading
+2025-11-14 19:02:29,071 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_memory.py', reloading
+2025-11-14 19:02:29,072 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_io.py', reloading
+2025-11-14 19:02:29,073 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\__init__.py', reloading
+2025-11-14 19:02:29,074 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_pandas.py', reloading
+2025-11-14 19:02:29,075 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_extension_type.py', reloading
+2025-11-14 19:02:29,076 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_dataset.py', reloading
+2025-11-14 19:02:29,077 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_dataset_encryption.py', reloading
+2025-11-14 19:02:29,080 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_cffi.py', reloading
+2025-11-14 19:02:29,081 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_metadata.py', reloading
+2025-11-14 19:02:29,082 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\interchange\\test_interchange_spec.py', reloading
+2025-11-14 19:02:29,084 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\common.py', reloading
+2025-11-14 19:02:29,085 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_adhoc_memory_leak.py', reloading
+2025-11-14 19:02:29,086 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\interchange\\test_conversion.py', reloading
+2025-11-14 19:02:29,086 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_table.py', reloading
+2025-11-14 19:02:29,088 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\parquet\\test_basic.py', reloading
+2025-11-14 19:02:29,090 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_pandas.py', reloading
+2025-11-14 19:02:29,092 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_array.py', reloading
+2025-11-14 19:02:29,095 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\tests\\test_dataset.py', reloading
+2025-11-14 19:02:29,105 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\parquet\\encryption.py', reloading
+2025-11-14 19:02:29,106 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\parquet\\__init__.py', reloading
+2025-11-14 19:02:29,109 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\parquet\\core.py', reloading
+2025-11-14 19:02:29,111 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\pandas_compat.py', reloading
+2025-11-14 19:02:29,111 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\interchange\\__init__.py', reloading
+2025-11-14 19:02:29,115 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\interchange\\from_dataframe.py', reloading
+2025-11-14 19:02:29,117 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\interchange\\dataframe.py', reloading
+2025-11-14 19:02:29,117 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyarrow\\json.py', reloading
+2025-11-14 19:02:29,118 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\reports\\__init__.py', reloading
+2025-11-14 19:02:29,119 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\__init__.py', reloading
+2025-11-14 19:02:29,121 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\reports\\image.py', reloading
+2025-11-14 19:02:29,122 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\zmq\\backend\\cffi\\utils.py', reloading
+2025-11-14 19:02:29,123 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\pro\\reports\\markdown.py', reloading
+2025-11-14 19:02:29,125 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\expansion.py', reloading
+2025-11-14 19:02:29,126 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\mac_dict.py', reloading
+2025-11-14 19:02:29,127 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\ext\\sql.py', reloading
+2025-11-14 19:02:29,129 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\cli.py', reloading
+2025-11-14 19:02:29,130 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\ext\\__init__.py', reloading
+2025-11-14 19:02:29,135 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\conversion\\framework.py', reloading
+2025-11-14 19:02:29,136 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\conversion\\numpy_conv.py', reloading
+2025-11-14 19:02:29,137 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\conversion\\pandas_conv.py', reloading
+2025-11-14 19:02:29,138 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\conversion\\__init__.py', reloading
+2025-11-14 19:02:29,139 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\conversion\\polars_conv.py', reloading
+2025-11-14 19:02:29,141 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\xlwings\\conversion\\standard.py', reloading
+2025-11-14 19:02:29,142 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\yaml_utils.py', reloading
+2025-11-14 19:02:29,149 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\operator_versions\\gen_mobile_upgraders_constant.py', reloading
+2025-11-14 19:02:29,153 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\typing\\__init__.py', reloading
+2025-11-14 19:02:29,157 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\static_runtime\\config.py', reloading
+2025-11-14 19:02:29,158 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\static_runtime\\generator.py', reloading
+2025-11-14 19:02:29,158 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\dest\\__init__.py', reloading
+2025-11-14 19:02:29,160 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winpty\\ptyprocess.py', reloading
+2025-11-14 19:02:29,162 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\adsi\\adsicon.py', reloading
+2025-11-14 19:02:29,163 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\authorization\\__init__.py', reloading
+2025-11-14 19:02:29,165 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\authorization\\demos\\EditSecurity.py', reloading
+2025-11-14 19:02:29,166 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\authorization\\demos\\EditServiceSecurity.py', reloading
+2025-11-14 19:02:29,168 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\directsound\\__init__.py', reloading
+2025-11-14 19:02:29,168 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\bits\\test\\show_all_jobs.py', reloading
+2025-11-14 19:02:29,170 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\internet\\inetcon.py', reloading
+2025-11-14 19:02:29,171 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\mapi\\emsabtags.py', reloading
+2025-11-14 19:02:29,173 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\propsys\\pscon.py', reloading
+2025-11-14 19:02:29,175 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\propsys\\test\\testpropsys.py', reloading
+2025-11-14 19:02:29,177 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\mapi\\__init__.py', reloading
+2025-11-14 19:02:29,178 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\propsys\\__init__.py', reloading
+2025-11-14 19:02:29,179 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\mapi\\mapiutil.py', reloading
+2025-11-14 19:02:29,180 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\mapi\\mapitags.py', reloading
+2025-11-14 19:02:29,181 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\taskscheduler\\__init__.py', reloading
+2025-11-14 19:02:29,183 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\mapi\\demos\\mapisend.py', reloading
+2025-11-14 19:02:29,185 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\internet\\__init__.py', reloading
+2025-11-14 19:02:29,187 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\bits\\test\\test_bits.py', reloading
+2025-11-14 19:02:29,188 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\taskscheduler\\test\\test_addtask.py', reloading
+2025-11-14 19:02:29,189 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\__init__.py', reloading
+2025-11-14 19:02:29,190 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\taskscheduler\\test\\test_addtask_1.py', reloading
+2025-11-14 19:02:29,191 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\taskscheduler\\test\\test_localsystem.py', reloading
+2025-11-14 19:02:29,192 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\browse_for_folder.py', reloading
+2025-11-14 19:02:29,193 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\shellcon.py', reloading
+2025-11-14 19:02:29,194 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\taskscheduler\\test\\test_addtask_2.py', reloading
+2025-11-14 19:02:29,196 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\test\\testShellFolder.py', reloading
+2025-11-14 19:02:29,197 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\test\\testShellItem.py', reloading
+2025-11-14 19:02:29,199 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\directsound\\test\\ds_record.py', reloading
+2025-11-14 19:02:29,199 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\bits\\__init__.py', reloading
+2025-11-14 19:02:29,200 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\test\\testSHFileOperation.py', reloading
+2025-11-14 19:02:29,200 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\directsound\\test\\__init__.py', reloading
+2025-11-14 19:02:29,201 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\create_link.py', reloading
+2025-11-14 19:02:29,201 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\directsound\\test\\ds_test.py', reloading
+2025-11-14 19:02:29,202 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\dump_link.py', reloading
+2025-11-14 19:02:29,203 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\explorer_browser.py', reloading
+2025-11-14 19:02:29,204 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\IActiveDesktop.py', reloading
+2025-11-14 19:02:29,204 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\IShellLinkDataList.py', reloading
+2025-11-14 19:02:29,205 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\IFileOperationProgressSink.py', reloading
+2025-11-14 19:02:29,205 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\ITransferAdviseSink.py', reloading
+2025-11-14 19:02:29,206 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\IUniformResourceLocator.py', reloading
+2025-11-14 19:02:29,207 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\shellexecuteex.py', reloading
+2025-11-14 19:02:29,208 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\viewstate.py', reloading
+2025-11-14 19:02:29,209 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\walk_shell_folders.py', reloading
+2025-11-14 19:02:29,210 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\adsi\\__init__.py', reloading
+2025-11-14 19:02:29,210 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winpty\\tests\\__init__.py', reloading
+2025-11-14 19:02:29,211 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\column_provider.py', reloading
+2025-11-14 19:02:29,212 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\context_menu.py', reloading
+2025-11-14 19:02:29,213 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\copy_hook.py', reloading
+2025-11-14 19:02:29,213 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\asputil.py', reloading
+2025-11-14 19:02:29,214 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\icon_handler.py', reloading
+2025-11-14 19:02:29,214 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\ifilter\\demo\\filterDemo.py', reloading
+2025-11-14 19:02:29,216 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\adsi\\demos\\test.py', reloading
+2025-11-14 19:02:29,216 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\ifilter\\__init__.py', reloading
+2025-11-14 19:02:29,217 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\contexts.py', reloading
+2025-11-14 19:02:29,218 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\debugger.py', reloading
+2025-11-14 19:02:29,218 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\documents.py', reloading
+2025-11-14 19:02:29,219 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\__init__.py', reloading
+2025-11-14 19:02:29,219 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\expressions.py', reloading
+2025-11-14 19:02:29,221 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\pydumper.py', reloading
+2025-11-14 19:02:29,222 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\stackframe.py', reloading
+2025-11-14 19:02:29,223 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\framework.py', reloading
+2025-11-14 19:02:29,224 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\pyscript_rexec.py', reloading
+2025-11-14 19:02:29,224 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\scriptdispatch.py', reloading
+2025-11-14 19:02:29,225 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\__init__.py', reloading
+2025-11-14 19:02:29,228 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\pyscript.py', reloading
+2025-11-14 19:02:29,228 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\test\\leakTest.py', reloading
+2025-11-14 19:02:29,230 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\test\\testHost4Dbg.py', reloading
+2025-11-14 19:02:29,231 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\test\\testHost.py', reloading
+2025-11-14 19:02:29,233 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\__init__.py', reloading
+2025-11-14 19:02:29,235 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\util.py', reloading
+2025-11-14 19:02:29,236 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\error.py', reloading
+2025-11-14 19:02:29,238 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\gateways.py', reloading
+2025-11-14 19:02:29,240 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\dump.py', reloading
+2025-11-14 19:02:29,242 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\client\\debug.py', reloading
+2025-11-14 19:02:29,242 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\ifilter\\ifiltercon.py', reloading
+2025-11-14 19:02:29,243 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\codecontainer.py', reloading
+2025-11-14 19:02:29,244 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\adsi\\demos\\search.py', reloading
+2025-11-14 19:02:29,244 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\folder_view.py', reloading
+2025-11-14 19:02:29,247 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\shell_view.py', reloading
+2025-11-14 19:02:29,248 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axdebug\\adb.py', reloading
+2025-11-14 19:02:29,249 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axscript\\server\\axsite.py', reloading
+2025-11-14 19:02:29,249 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\adsi\\demos\\objectPicker.py', reloading
+2025-11-14 19:02:29,250 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\adsi\\demos\\scp.py', reloading
+2025-11-14 19:02:29,251 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\shell\\demos\\servers\\empty_volume_cache.py', reloading
+2025-11-14 19:02:29,253 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32comext\\axcontrol\\__init__.py', reloading
+2025-11-14 19:02:29,254 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winpty\\tests\\test_pty.py', reloading
+2025-11-14 19:02:29,255 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winpty\\tests\\test_ptyprocess.py', reloading
+2025-11-14 19:02:29,255 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winpty\\enums.py', reloading
+2025-11-14 19:02:29,256 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\static_runtime\\gen_static_runtime_ops.py', reloading
+2025-11-14 19:02:29,259 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\typing\\typeof.py', reloading
+2025-11-14 19:02:29,260 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\selective_build\\operator.py', reloading
+2025-11-14 19:02:29,260 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\selective_build\\selector.py', reloading
+2025-11-14 19:02:29,261 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_variable_factories.py', reloading
+2025-11-14 19:02:29,262 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\load_derivatives.py', reloading
+2025-11-14 19:02:29,262 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\EvtSubscribe_pull.py', reloading
+2025-11-14 19:02:29,263 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\EvtSubscribe_push.py', reloading
+2025-11-14 19:02:29,264 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32rcparser.py', reloading
+2025-11-14 19:02:29,265 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\_win32verstamp_pywin32ctypes.py', reloading
+2025-11-14 19:02:29,266 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\servers\\interp.py', reloading
+2025-11-14 19:02:29,267 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\servers\\PythonTools.py', reloading
+2025-11-14 19:02:29,267 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\RegCreateKeyTransacted.py', reloading
+2025-11-14 19:02:29,268 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\servers\\test_pycomtest.py', reloading
+2025-11-14 19:02:29,268 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\RegRestoreKey.py', reloading
+2025-11-14 19:02:29,269 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\localized_names.py', reloading
+2025-11-14 19:02:29,270 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32console_demo.py', reloading
+2025-11-14 19:02:29,271 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\query_information.py', reloading
+2025-11-14 19:02:29,271 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\regsave_sa.py', reloading
+2025-11-14 19:02:29,272 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32fileDemo.py', reloading
+2025-11-14 19:02:29,273 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\regsecurity.py', reloading
+2025-11-14 19:02:29,274 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32gui_devicenotify.py', reloading
+2025-11-14 19:02:29,275 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\setkernelobjectsecurity.py', reloading
+2025-11-14 19:02:29,275 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32rcparser_demo.py', reloading
+2025-11-14 19:02:29,276 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32netdemo.py', reloading
+2025-11-14 19:02:29,276 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32gui_taskbar.py', reloading
+2025-11-14 19:02:29,277 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\set_file_owner.py', reloading
+2025-11-14 19:02:29,277 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\set_file_audit.py', reloading
+2025-11-14 19:02:29,277 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\set_policy_info.py', reloading
+2025-11-14 19:02:29,279 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\winprocess.py', reloading
+2025-11-14 19:02:29,282 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\sspi\\fetch_url.py', reloading
+2025-11-14 19:02:29,283 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\sspi\\simple_auth.py', reloading
+2025-11-14 19:02:29,284 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\sspi\\socket_server.py', reloading
+2025-11-14 19:02:29,286 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\winxpgui.py', reloading
+2025-11-14 19:02:29,287 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\sspi\\validate_password.py', reloading
+2025-11-14 19:02:29,289 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32wnet\\winnetwk.py', reloading
+2025-11-14 19:02:29,290 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32wnet\\testwnet.py', reloading
+2025-11-14 19:02:29,291 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32ts_logoff_disconnected.py', reloading
+2025-11-14 19:02:29,294 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32servicedemo.py', reloading
+2025-11-14 19:02:29,295 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\setuserobjectsecurity.py', reloading
+2025-11-14 19:02:29,295 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\setsecurityinfo.py', reloading
+2025-11-14 19:02:29,296 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\setnamedsecurityinfo.py', reloading
+2025-11-14 19:02:29,297 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32gui_menu.py', reloading
+2025-11-14 19:02:29,303 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32gui_dialog.py', reloading
+2025-11-14 19:02:29,304 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\sa_inherit.py', reloading
+2025-11-14 19:02:29,305 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\security_enums.py', reloading
+2025-11-14 19:02:29,305 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\lsastore.py', reloading
+2025-11-14 19:02:29,306 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32cred_demo.py', reloading
+2025-11-14 19:02:29,307 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\setup_d.py', reloading
+2025-11-14 19:02:29,307 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\lsaregevent.py', reloading
+2025-11-14 19:02:29,307 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32gui_demo.py', reloading
+2025-11-14 19:02:29,309 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\regsetup.py', reloading
+2025-11-14 19:02:29,310 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\rasutil.py', reloading
+2025-11-14 19:02:29,310 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\VersionStamp\\BrandProject.py', reloading
+2025-11-14 19:02:29,311 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\list_rights.py', reloading
+2025-11-14 19:02:29,312 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\VersionStamp\\bulkstamp.py', reloading
+2025-11-14 19:02:29,313 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\VersionStamp\\vssutil.py', reloading
+2025-11-14 19:02:29,315 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\get_policy_info.py', reloading
+2025-11-14 19:02:29,315 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\killProcName.py', reloading
+2025-11-14 19:02:29,317 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\GetTokenInformation.py', reloading
+2025-11-14 19:02:29,317 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\service\\serviceEvents.py', reloading
+2025-11-14 19:02:29,317 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32comport_demo.py', reloading
+2025-11-14 19:02:29,319 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\ControlService.py', reloading
+2025-11-14 19:02:29,319 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\scripts\\backupEventLog.py', reloading
+2025-11-14 19:02:29,320 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32clipboard_bitmapdemo.py', reloading
+2025-11-14 19:02:29,321 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\explicit_entries.py', reloading
+2025-11-14 19:02:29,322 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\service\\pipeTestServiceClient.py', reloading
+2025-11-14 19:02:29,323 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\service\\pipeTestService.py', reloading
+2025-11-14 19:02:29,325 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\security\\account_rights.py', reloading
+2025-11-14 19:02:29,325 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\timer_demo.py', reloading
+2025-11-14 19:02:29,326 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\win32clipboardDemo.py', reloading
+2025-11-14 19:02:29,327 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\service\\nativePipeTestService.py', reloading
+2025-11-14 19:02:29,330 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\print_desktop.py', reloading
+2025-11-14 19:02:29,330 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\handles.py', reloading
+2025-11-14 19:02:29,331 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\servers\\perfmon.py', reloading
+2025-11-14 19:02:29,331 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\util.py', reloading
+2025-11-14 19:02:29,332 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\SystemParametersInfo.py', reloading
+2025-11-14 19:02:29,332 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\OpenEncryptedFileRaw.py', reloading
+2025-11-14 19:02:29,333 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\winxptheme.py', reloading
+2025-11-14 19:02:29,334 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\rastest.py', reloading
+2025-11-14 19:02:29,334 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\__init__.py', reloading
+2025-11-14 19:02:29,335 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\servers\\dictionary.py', reloading
+2025-11-14 19:02:29,336 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\universal.py', reloading
+2025-11-14 19:02:29,336 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_clipboard.py', reloading
+2025-11-14 19:02:29,337 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\testall.py', reloading
+2025-11-14 19:02:29,337 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\pipes\\cat.py', reloading
+2025-11-14 19:02:29,338 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\winpty\\__init__.py', reloading
+2025-11-14 19:02:29,339 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\winperf.py', reloading
+2025-11-14 19:02:29,339 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\NetValidatePasswordPolicy.py', reloading
+2025-11-14 19:02:29,340 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\storagecon.py', reloading
+2025-11-14 19:02:29,340 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_exceptions.py', reloading
+2025-11-14 19:02:29,341 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_odbc.py', reloading
+2025-11-14 19:02:29,342 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\mmapfile_demo.py', reloading
+2025-11-14 19:02:29,343 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\pipes\\runproc.py', reloading
+2025-11-14 19:02:29,344 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_pywintypes.py', reloading
+2025-11-14 19:02:29,345 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_security.py', reloading
+2025-11-14 19:02:29,345 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_sspi.py', reloading
+2025-11-14 19:02:29,346 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32api.py', reloading
+2025-11-14 19:02:29,346 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\winnt.py', reloading
+2025-11-14 19:02:29,347 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\daodump.py', reloading
+2025-11-14 19:02:29,347 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\GenTestScripts.py', reloading
+2025-11-14 19:02:29,348 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\winioctlcon.py', reloading
+2025-11-14 19:02:29,348 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32verstamp.py', reloading
+2025-11-14 19:02:29,348 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\winerror.py', reloading
+2025-11-14 19:02:29,349 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32cred.py', reloading
+2025-11-14 19:02:29,349 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32clipboard.py', reloading
+2025-11-14 19:02:29,349 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32crypt.py', reloading
+2025-11-14 19:02:29,350 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\errorSemantics.py', reloading
+2025-11-14 19:02:29,351 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\policySemantics.py', reloading
+2025-11-14 19:02:29,351 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32event.py', reloading
+2025-11-14 19:02:29,351 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\GetSaveFileName.py', reloading
+2025-11-14 19:02:29,351 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\connect.py', reloading
+2025-11-14 19:02:29,352 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\factory.py', reloading
+2025-11-14 19:02:29,352 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\policy.py', reloading
+2025-11-14 19:02:29,353 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testADOEvents.py', reloading
+2025-11-14 19:02:29,353 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32inet.py', reloading
+2025-11-14 19:02:29,354 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32file.py', reloading
+2025-11-14 19:02:29,354 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\__init__.py', reloading
+2025-11-14 19:02:29,355 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\util.py', reloading
+2025-11-14 19:02:29,356 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\localserver.py', reloading
+2025-11-14 19:02:29,357 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testall.py', reloading
+2025-11-14 19:02:29,357 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\register.py', reloading
+2025-11-14 19:02:29,358 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32guistruct.py', reloading
+2025-11-14 19:02:29,358 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32net.py', reloading
+2025-11-14 19:02:29,359 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\exception.py', reloading
+2025-11-14 19:02:29,360 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testArrays.py', reloading
+2025-11-14 19:02:29,360 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32pipe.py', reloading
+2025-11-14 19:02:29,361 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testAccess.py', reloading
+2025-11-14 19:02:29,361 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32gui.py', reloading
+2025-11-14 19:02:29,361 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testClipboard.py', reloading
+2025-11-14 19:02:29,361 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testAXScript.py', reloading
+2025-11-14 19:02:29,362 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testConversionErrors.py', reloading
+2025-11-14 19:02:29,363 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testCollections.py', reloading
+2025-11-14 19:02:29,363 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\pippo_server.py', reloading
+2025-11-14 19:02:29,364 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32traceutil.py', reloading
+2025-11-14 19:02:29,364 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testDictionary.py', reloading
+2025-11-14 19:02:29,364 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testDates.py', reloading
+2025-11-14 19:02:29,365 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32print.py', reloading
+2025-11-14 19:02:29,365 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\server\\dispatcher.py', reloading
+2025-11-14 19:02:29,366 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testDCOM.py', reloading
+2025-11-14 19:02:29,366 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32serviceutil.py', reloading
+2025-11-14 19:02:29,367 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\getfilever.py', reloading
+2025-11-14 19:02:29,368 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32profile.py', reloading
+2025-11-14 19:02:29,368 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32pdhutil.py', reloading
+2025-11-14 19:02:29,370 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\FileSecurityTest.py', reloading
+2025-11-14 19:02:29,370 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\EvtFormatMessage.py', reloading
+2025-11-14 19:02:29,371 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32inetcon.py', reloading
+2025-11-14 19:02:29,371 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testExchange.py', reloading
+2025-11-14 19:02:29,372 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32pdhquery.py', reloading
+2025-11-14 19:02:29,372 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32netcon.py', reloading
+2025-11-14 19:02:29,373 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testDynamic.py', reloading
+2025-11-14 19:02:29,373 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32timezone.py', reloading
+2025-11-14 19:02:29,374 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testExplorer.py', reloading
+2025-11-14 19:02:29,374 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32rcparser.py', reloading
+2025-11-14 19:02:29,374 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32timezone.py', reloading
+2025-11-14 19:02:29,375 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32wnet.py', reloading
+2025-11-14 19:02:29,376 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\test\\test_win32trace.py', reloading
+2025-11-14 19:02:29,377 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testGIT.py', reloading
+2025-11-14 19:02:29,377 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testIterators.py', reloading
+2025-11-14 19:02:29,378 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testmakepy.py', reloading
+2025-11-14 19:02:29,380 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testGatewayAddresses.py', reloading
+2025-11-14 19:02:29,380 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testMarshal.py', reloading
+2025-11-14 19:02:29,381 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testPippo.py', reloading
+2025-11-14 19:02:29,382 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testPersist.py', reloading
+2025-11-14 19:02:29,387 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testMSOfficeEvents.py', reloading
+2025-11-14 19:02:29,387 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testNetscape.py', reloading
+2025-11-14 19:02:29,388 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testMSOffice.py', reloading
+2025-11-14 19:02:29,389 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testPyComTest.py', reloading
+2025-11-14 19:02:29,389 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testROT.py', reloading
+2025-11-14 19:02:29,390 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testStreams.py', reloading
+2025-11-14 19:02:29,390 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32gui_struct.py', reloading
+2025-11-14 19:02:29,391 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\eventLogDemo.py', reloading
+2025-11-14 19:02:29,391 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testServers.py', reloading
+2025-11-14 19:02:29,391 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testStorage.py', reloading
+2025-11-14 19:02:29,392 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testvb.py', reloading
+2025-11-14 19:02:29,392 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testvbscript_regexp.py', reloading
+2025-11-14 19:02:29,392 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testWMI.py', reloading
+2025-11-14 19:02:29,393 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testShell.py', reloading
+2025-11-14 19:02:29,394 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\testxslt.py', reloading
+2025-11-14 19:02:29,394 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\desktopmanager.py', reloading
+2025-11-14 19:02:29,395 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_view_funcs.py', reloading
+2025-11-14 19:02:29,395 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\__init__.py', reloading
+2025-11-14 19:02:29,396 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32evtlogutil.py', reloading
+2025-11-14 19:02:29,396 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\test\\util.py', reloading
+2025-11-14 19:02:29,396 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win2kras.py', reloading
+2025-11-14 19:02:29,397 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_variable_type.py', reloading
+2025-11-14 19:02:29,398 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32cryptcon.py', reloading
+2025-11-14 19:02:29,398 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\dde\\ddeclient.py', reloading
+2025-11-14 19:02:29,398 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\sspicon.py', reloading
+2025-11-14 19:02:29,399 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\c_extension\\setup.py', reloading
+2025-11-14 19:02:29,399 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\win32con.py', reloading
+2025-11-14 19:02:29,400 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\trybag.py', reloading
+2025-11-14 19:02:29,400 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\dde\\ddeserver.py', reloading
+2025-11-14 19:02:29,400 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_trace_type.py', reloading
+2025-11-14 19:02:29,401 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\CreateFileTransacted_MiniVersion.py', reloading
+2025-11-14 19:02:29,401 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\sspi.py', reloading
+2025-11-14 19:02:29,401 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_python_functions.py', reloading
+2025-11-14 19:02:29,402 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\outlookAddin.py', reloading
+2025-11-14 19:02:29,402 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\__init__.py', reloading
+2025-11-14 19:02:29,402 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\regutil.py', reloading
+2025-11-14 19:02:29,403 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_inplace_or_view_type.py', reloading
+2025-11-14 19:02:29,403 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\util.py', reloading
+2025-11-14 19:02:29,403 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\CopyFileEx.py', reloading
+2025-11-14 19:02:29,404 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_autograd_functions.py', reloading
+2025-11-14 19:02:29,404 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\regcheck.py', reloading
+2025-11-14 19:02:29,405 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\iebutton.py', reloading
+2025-11-14 19:02:29,405 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\ietoolbar.py', reloading
+2025-11-14 19:02:29,406 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\tlbrowse.py', reloading
+2025-11-14 19:02:29,406 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\rasutil.py', reloading
+2025-11-14 19:02:29,407 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\BackupSeek_streamheaders.py', reloading
+2025-11-14 19:02:29,407 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\excelRTDServer.py', reloading
+2025-11-14 19:02:29,407 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_autograd.py', reloading
+2025-11-14 19:02:29,408 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\selecttlb.py', reloading
+2025-11-14 19:02:29,408 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\Demos\\BackupRead_BackupWrite.py', reloading
+2025-11-14 19:02:29,409 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\pywintypes.py', reloading
+2025-11-14 19:02:29,409 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\excelAddin.py', reloading
+2025-11-14 19:02:29,409 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\gen_annotated_fn_args.py', reloading
+2025-11-14 19:02:29,410 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\makepy.py', reloading
+2025-11-14 19:02:29,410 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\eventsApartmentThreaded.py', reloading
+2025-11-14 19:02:29,410 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\eventsFreeThreaded.py', reloading
+2025-11-14 19:02:29,411 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\pywin32_testutil.py', reloading
+2025-11-14 19:02:29,411 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\dynamic.py', reloading
+2025-11-14 19:02:29,412 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\packaged\\autograd\\context.py', reloading
+2025-11-14 19:02:29,412 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\connect.py', reloading
+2025-11-14 19:02:29,412 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\genpy.py', reloading
+2025-11-14 19:02:29,413 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\ntsecuritycon.py', reloading
+2025-11-14 19:02:29,413 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\dump_clipboard.py', reloading
+2025-11-14 19:02:29,413 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\pywin32_bootstrap.py', reloading
+2025-11-14 19:02:29,414 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\olectl.py', reloading
+2025-11-14 19:02:29,414 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\CLSIDToClass.py', reloading
+2025-11-14 19:02:29,414 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\combrowse.py', reloading
+2025-11-14 19:02:29,414 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\demos\\connect.py', reloading
+2025-11-14 19:02:29,415 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\netbios.py', reloading
+2025-11-14 19:02:29,415 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\afxres.py', reloading
+2025-11-14 19:02:29,415 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\gencache.py', reloading
+2025-11-14 19:02:29,416 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\commctrl.py', reloading
+2025-11-14 19:02:29,416 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib\\mmsystem.py', reloading
+2025-11-14 19:02:29,417 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\build.py', reloading
+2025-11-14 19:02:29,417 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\makegw\\makegwenum.py', reloading
+2025-11-14 19:02:29,418 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\makegw\\makegw.py', reloading
+2025-11-14 19:02:29,418 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\makegw\\__init__.py', reloading
+2025-11-14 19:02:29,420 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\dest\\ufunc.py', reloading
+2025-11-14 19:02:29,420 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\makegw\\makegwparse.py', reloading
+2025-11-14 19:02:29,421 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\typing\\templates.py', reloading
+2025-11-14 19:02:29,422 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\typing\\setdecl.py', reloading
+2025-11-14 19:02:29,422 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numba\\core\\typing\\npydecl.py', reloading
+2025-11-14 19:02:29,423 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\widgetsnbextension\\_version.py', reloading
+2025-11-14 19:02:29,423 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\dest\\register_dispatch_key.py', reloading
+2025-11-14 19:02:29,424 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\torchgen\\native_function_generation.py', reloading
+2025-11-14 19:02:29,424 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\widgetsnbextension\\__init__.py', reloading
+2025-11-14 19:02:29,425 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\wheel\\util.py', reloading
+2025-11-14 19:02:29,484 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:02:29,898 - WARNING -  * Debugger is active!
+2025-11-14 19:02:29,902 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:02:29,923 - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\transformers\\utils\\dummy_sentencepiece_objects.py', reloading
+2025-11-14 19:02:30,013 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:02:30,390 - WARNING -  * Debugger is active!
+2025-11-14 19:02:30,393 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:02:30,412 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:02:38,136 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31
+2025-11-14 19:02:38,139 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31 00:00:00, Time: 2.49ms, Success: True
+2025-11-14 19:02:38,141 - INFO - Quarterly data result: 8.705467222174985
+2025-11-14 19:02:38,141 - INFO - 127.0.0.1 - - [14/Nov/2025 19:02:38] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2023-03-31 HTTP/1.1" 200 -
+2025-11-14 19:02:43,328 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2023-09-30, Time: 2.46ms, Rows: 6
+2025-11-14 19:02:43,330 - INFO - 127.0.0.1 - - [14/Nov/2025 19:02:43] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2023-09-30 HTTP/1.1" 200 -
+2025-11-14 19:03:45,259 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app_backup.py', reloading
+2025-11-14 19:03:45,261 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app_backup.py', reloading
+2025-11-14 19:03:45,261 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app_backup.py', reloading
+2025-11-14 19:03:45,785 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:03:46,140 - WARNING -  * Debugger is active!
+2025-11-14 19:03:46,144 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:03:46,171 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:06:08,388 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:06:08,640 - WARNING -  * Debugger is active!
+2025-11-14 19:06:08,643 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:06:08,666 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:06:10,146 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:10] "GET / HTTP/1.1" 200 -
+2025-11-14 19:06:13,404 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31
+2025-11-14 19:06:13,407 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31 00:00:00, Time: 2.77ms, Success: True
+2025-11-14 19:06:13,409 - INFO - Quarterly data result: 8.705467222174985
+2025-11-14 19:06:13,409 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:13] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2023-03-31 HTTP/1.1" 200 -
+2025-11-14 19:06:14,736 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2022-03-31 to 2023-09-30, Time: 2.58ms, Rows: 6
+2025-11-14 19:06:14,738 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:14] "GET /api/series?accord_code=100186&start_date=2022-03-31&end_date=2023-09-30 HTTP/1.1" 200 -
+2025-11-14 19:06:17,126 - INFO - get_quarterly_matrix - Date: 2023-06-30, Field: ttm_pat_yoy_growth, Time: 8.23ms, Rows: 970
+2025-11-14 19:06:17,130 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:17] "GET /api/quarterly_matrix?date=2023-06-30 HTTP/1.1" 200 -
+2025-11-14 19:06:21,234 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:06:21,234 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:06:21,753 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:06:22,037 - WARNING -  * Debugger is active!
+2025-11-14 19:06:22,040 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:06:22,060 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:06:26,158 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:26] "GET / HTTP/1.1" 200 -
+2025-11-14 19:06:28,395 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31
+2025-11-14 19:06:28,398 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31 00:00:00, Time: 2.69ms, Success: True
+2025-11-14 19:06:28,400 - INFO - Quarterly data result: 8.705467222174985
+2025-11-14 19:06:28,400 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:28] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2023-03-31 HTTP/1.1" 200 -
+2025-11-14 19:06:35,144 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:06:35,144 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:06:36,157 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:06:36,422 - WARNING -  * Debugger is active!
+2025-11-14 19:06:36,426 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:06:36,444 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:06:38,062 - INFO - 127.0.0.1 - - [14/Nov/2025 19:06:38] "GET / HTTP/1.1" 200 -
+2025-11-14 19:07:31,142 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:07:31,409 - WARNING -  * Debugger is active!
+2025-11-14 19:07:31,413 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:07:31,439 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:07:33,306 - INFO - 127.0.0.1 - - [14/Nov/2025 19:07:33] "GET / HTTP/1.1" 200 -
+2025-11-14 19:08:34,062 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:08:34,321 - WARNING -  * Debugger is active!
+2025-11-14 19:08:34,324 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:08:34,343 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:08:35,928 - INFO - 127.0.0.1 - - [14/Nov/2025 19:08:35] "GET / HTTP/1.1" 200 -
+2025-11-14 19:09:17,977 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:09:17,977 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:09:18,553 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:09:18,901 - WARNING -  * Debugger is active!
+2025-11-14 19:09:18,904 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:09:18,925 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:12:40,609 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:12:40,610 - INFO -  * Detected change in 'C:\\Users\\HP\\Downloads\\ttm_pat_project\\ttm_pat_project\\financial_data_analyzer\\app.py', reloading
+2025-11-14 19:12:40,722 - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-14 19:12:41,070 - WARNING -  * Debugger is active!
+2025-11-14 19:12:41,073 - INFO -  * Debugger PIN: 374-769-830
+2025-11-14 19:12:41,101 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-11-14 19:12:42,947 - INFO - 127.0.0.1 - - [14/Nov/2025 19:12:42] "GET / HTTP/1.1" 200 -
+2025-11-14 19:12:46,569 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-11-14
+2025-11-14 19:12:46,575 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2025-11-14 00:00:00, Time: 4.56ms, Success: False
+2025-11-14 19:12:46,577 - INFO - Quarterly data result: None
+2025-11-14 19:12:46,582 - INFO - 127.0.0.1 - - [14/Nov/2025 19:12:46] "[33mGET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2025-11-14 HTTP/1.1[0m" 404 -
+2025-11-14 19:12:51,337 - INFO - get_series - Code: 100186, Field: ttm_pat_yoy_growth, Range: 2024-11-14 to 2025-11-14, Time: 2.33ms, Rows: 1
+2025-11-14 19:12:51,339 - INFO - 127.0.0.1 - - [14/Nov/2025 19:12:51] "GET /api/series?accord_code=100186&start_date=2024-11-14&end_date=2025-11-14 HTTP/1.1" 200 -
+2025-11-14 19:12:55,570 - INFO - get_quarterly_matrix - Date: 2025-11-14, Field: ttm_pat_yoy_growth, Time: 5.65ms, Rows: 0
+2025-11-14 19:12:55,572 - INFO - 127.0.0.1 - - [14/Nov/2025 19:12:55] "GET /api/quarterly_matrix?date=2025-11-14 HTTP/1.1" 200 -
+2025-11-14 19:13:03,389 - INFO - get_quarterly_matrix - Date: 2025-11-30, Field: ttm_pat_yoy_growth, Time: 4.53ms, Rows: 0
+2025-11-14 19:13:03,392 - INFO - 127.0.0.1 - - [14/Nov/2025 19:13:03] "GET /api/quarterly_matrix?date=2025-11-30 HTTP/1.1" 200 -
+2025-11-14 19:13:09,956 - INFO - get_quarterly_matrix - Date: 2025-02-04, Field: ttm_pat_yoy_growth, Time: 4.42ms, Rows: 0
+2025-11-14 19:13:09,958 - INFO - 127.0.0.1 - - [14/Nov/2025 19:13:09] "GET /api/quarterly_matrix?date=2025-02-04 HTTP/1.1" 200 -
+2025-11-14 19:13:14,502 - INFO - get_quarterly_matrix - Date: 2025-02-21, Field: ttm_pat_yoy_growth, Time: 4.31ms, Rows: 0
+2025-11-14 19:13:14,504 - INFO - 127.0.0.1 - - [14/Nov/2025 19:13:14] "GET /api/quarterly_matrix?date=2025-02-21 HTTP/1.1" 200 -
+2025-11-14 19:14:39,568 - INFO - Quarterly data request - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31
+2025-11-14 19:14:39,570 - INFO - get_quarterly_data - Code: 100186, Field: ttm_pat_yoy_growth, Date: 2023-03-31 00:00:00, Time: 2.17ms, Success: True
+2025-11-14 19:14:39,572 - INFO - Quarterly data result: 8.705467222174985
+2025-11-14 19:14:39,573 - INFO - 127.0.0.1 - - [14/Nov/2025 19:14:39] "GET /api/quarterly_data?accord_code=100186&field=ttm_pat_yoy_growth&date=2023-03-31 HTTP/1.1" 200 -
