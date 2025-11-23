@@ -1,6 +1,6 @@
 # Financial Data Analyzer – Equity Portfolio & Beta Analysis
 
-**Candidate:** Tanvi Kailas Sawant  
+**Name:** Tanvi Kailas Sawant  
 **GitHub Repository:** https://github.com/Tanvi063/itus-capital-udf-project/tree/main/ITUS-round2/financial-assignment/submission
 
 ---
