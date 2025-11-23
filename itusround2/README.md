@@ -1,7 +1,7 @@
 # Financial Data Analyzer – Equity Portfolio & Beta Analysis
 
 **Candidate:** Tanvi Kailas Sawant  
-**GitHub Repository:** https://YOUR_GITHUB_REPO_URL_HERE  
+**GitHub Repository:**  https://github.com/Tanvi063/itus-capital-udf-project/edit/main/itusround2
 
 ---
 
@@ -68,18 +68,12 @@ Dependencies are listed in [requirements.txt](cci:7://file:///c:/Users/HP/Downlo
 ## 4. Project Structure
 
 ```text
-ITUS-round2/
-├── README.md
-└── financial-assignment/
-    ├── portfolio_manager.py      # Core class-based implementation
-    ├── run.py                    # Entry script to run the full pipeline
-    ├── universe.csv              # Stock universe
-    ├── price_history.csv         # Historical price data
-    ├── requirements.txt          # Python dependencies
-    └── submission/               # Clean bundle used for final submission
-        ├── portfolio_manager.py
-        ├── run.py
-        ├── universe.csv
-        ├── price_history.csv
-        ├── requirements.txt
-        └── output.xlsx           # Generated Excel report
+itusround2/
+  ├──itus-capital-udf.project   #previous task
+  ├── README.md
+  ├── portfolio_manager.py      # Core class-based implementation
+  ├── run.py                    # Entry script to run the full pipeline
+  ├── universe.csv              # Stock universe
+  ├── price_history.csv         # Historical price data
+  ├── requirements.txt          # Python dependencies
+  ├── output.xlsx           # Generated Excel report
