@@ -69,17 +69,13 @@ Dependencies are listed in [requirements.txt](cci:7://file:///c:/Users/HP/Downlo
 
 ```text
 ITUS-round2/
-├── README.md
-└── financial-assignment/
+
+└── submission/
+    ├── itus-capital-udf-project  #previous project task-1
     ├── portfolio_manager.py      # Core class-based implementation
     ├── run.py                    # Entry script to run the full pipeline
     ├── universe.csv              # Stock universe
     ├── price_history.csv         # Historical price data
     ├── requirements.txt          # Python dependencies
-    └── submission/               # Clean bundle used for final submission
-        ├── portfolio_manager.py
-        ├── run.py
-        ├── universe.csv
-        ├── price_history.csv
-        ├── requirements.txt
-        └── output.xlsx           # Generated Excel report
+    └── output.xlsx           # Generated Excel report
+    ├── README.md
