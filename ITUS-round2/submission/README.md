@@ -1,7 +1,7 @@
 # Financial Data Analyzer – Equity Portfolio & Beta Analysis
 
 **Candidate:** Tanvi Kailas Sawant  
-**GitHub Repository:** https://YOUR_GITHUB_REPO_URL_HERE  
+**GitHub Repository:** https://github.com/Tanvi063/itus-capital-udf-project/tree/main/ITUS-round2/submission
 
 ---
 
@@ -16,7 +16,7 @@ It is designed to:
   - Stock-level returns between two dates
   - Stock-level beta versus a benchmark index (Nifty 50 – `^NSEI`)
   - Sector-level and portfolio-level metrics
-- Export the full analysis to a structured **Excel report** ([output.xlsx](cci:7://file:///c:/Users/HP/Downloads/financial_data_analyzer_Tanvi_sawant/financial_data_analyzer_Tanvi_sawant/financial_data_analyzer_Tanvi_sawant/ITUS-round2/financial-assignment/output.xlsx:0:0-0:0)).
+- Export the full analysis to a structured **Excel report** ([output.xlsx]
 
 The solution is modular, reproducible, and suitable for practical use in an investment or risk analytics context.
 
